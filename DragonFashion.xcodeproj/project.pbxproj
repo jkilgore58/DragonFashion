@@ -13,6 +13,8 @@
 		4C7CA9DF1C4E9A5F0083A336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CA9DD1C4E9A5F0083A336 /* Main.storyboard */; };
 		4C7CA9E11C4E9A5F0083A336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CA9E01C4E9A5F0083A336 /* Assets.xcassets */; };
 		4C7CA9E41C4E9A5F0083A336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CA9E21C4E9A5F0083A336 /* LaunchScreen.storyboard */; };
+		4C7CA9ED1C4EA4190083A336 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CA9EC1C4EA4190083A336 /* Dragon.m */; };
+		4C7CA9F01C4EB7B30083A336 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CA9EF1C4EB7B30083A336 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4C7CA9E01C4E9A5F0083A336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C7CA9E31C4E9A5F0083A336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C7CA9E51C4E9A5F0083A336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7CA9EB1C4EA4190083A336 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		4C7CA9EC1C4EA4190083A336 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		4C7CA9EE1C4EB7B30083A336 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4C7CA9EF1C4EB7B30083A336 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				4C7CA9D81C4E9A5F0083A336 /* AppDelegate.m */,
 				4C7CA9DA1C4E9A5F0083A336 /* ViewController.h */,
 				4C7CA9DB1C4E9A5F0083A336 /* ViewController.m */,
+				4C7CA9EB1C4EA4190083A336 /* Dragon.h */,
+				4C7CA9EC1C4EA4190083A336 /* Dragon.m */,
+				4C7CA9EE1C4EB7B30083A336 /* DetailViewController.h */,
+				4C7CA9EF1C4EB7B30083A336 /* DetailViewController.m */,
 				4C7CA9DD1C4E9A5F0083A336 /* Main.storyboard */,
 				4C7CA9E01C4E9A5F0083A336 /* Assets.xcassets */,
 				4C7CA9E21C4E9A5F0083A336 /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7CA9F01C4EB7B30083A336 /* DetailViewController.m in Sources */,
 				4C7CA9DC1C4E9A5F0083A336 /* ViewController.m in Sources */,
 				4C7CA9D91C4E9A5F0083A336 /* AppDelegate.m in Sources */,
+				4C7CA9ED1C4EA4190083A336 /* Dragon.m in Sources */,
 				4C7CA9D61C4E9A5F0083A336 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
